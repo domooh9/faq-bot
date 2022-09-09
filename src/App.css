@@ -1,0 +1,81 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh ;
+  margin: 0;
+  background: #222;
+  font-family: 'Abel', sans-serif;
+  font-family: 'Alfa Slab One', cursive;
+  font-family: 'Caveat', cursive;
+  font-family: 'Nanum Myeongjo', serif;
+ background-image: URL('https://media.istockphoto.com/photos/barton-springs-flowing-into-town-lake-above-green-cityscape-over-picture-   id1322892484?b=1&k=20&m=1322892484&s=170667a&w=0&h=8_qogA3E-awzSAUiINyU9ibt3bZ0ddMQMKqXkWEpS4I=');
+  background-repeat: no-repeat;
+  background-size:100% 100vh;
+  position: relative;
+}
+.App{
+  background: #000000d0;
+  color: white;
+  padding: 5em;
+  border-radius: 15px;
+  border: 1px solid;
+  border-color: coral;
+  width: 300px;
+  max-width: 300px;
+  margin: 2em;
+  height: 400px;
+}
+.inpt{
+  outline: 0;
+  border: 0;
+  width: 350px;
+  left: 418px;
+  height: 85px;
+  position:fixed; 
+  bottom:55px;
+  color: black;
+  border-bottom-left-radius: 15px;
+ font-size: 18px;
+ border: 1px solid;
+  border-color: coral;
+  border-left-color: none;
+ 
+}
+.btm{
+  border-left: 0px;
+  border: 0;
+  border-bottom-right-radius: 15px;
+  height: 89px;
+  bottom:55px;
+ position:fixed; 
+ margin: auto;
+right: 418px;
+border: 1px solid;
+  border-color: coral;
+width: 110px;
+font-size: 18px;
+background: grey;
+ }
+ .btn{
+  font-size: 18px;
+  border-radius: 60%;
+  color:antiquewhite;
+  width: 130px;
+  height: 30px;
+ position: fixed; 
+ background: #171738;
+ margin: 95px;
+ bottom: 100px;
+ }
+h2{
+  background: coral;
+  position: fixed;
+  top: 35.4px;
+  width: 460px;
+  left: 416px;
+  height: 100px;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  text-align: center;
+}
