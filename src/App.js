@@ -1,15 +1,13 @@
 import './App.css';
+import Fetch from './components/Fetch';
 
 function App() {
-  return (
-    <div className="App">
-    <h2>FAQ application</h2>
-     <form>
-      <button className='btn'>start</button>
-       <input className= "inpt" placeholder='Enter question...'/>
-      <button className='btm'>send</button>
-     </form>
-    </div>
+  
+ return (
+    <>
+       <Fetch />
+    </>
+ 
   );
 }
 
