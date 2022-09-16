@@ -1,0 +1,71 @@
+body {
+    font-size: 20px;
+    background-color: whitesmoke;
+  }
+  .header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    background-color: coral;
+    color: black;
+    padding: 20px;
+  }
+  
+  .main {
+    display: grid;
+    height: 600px; 
+    width: 600px;   
+    padding-top: 130px;
+    
+  }
+  
+  .nav {
+    background-color: rgba(115, 110, 192, 0.466);
+    text-align: center;
+  }
+  
+  .content {
+    background-color: rgba(160, 157, 195, 0.466);
+  }
+  
+   .bot {
+    bottom: 80px;
+    left : 480px;
+    position: absolute;
+    width: 200px;
+   background: black;
+  }
+  
+  .btn {
+    font-size: 20px;
+    float: right;
+    width: 100%;
+    padding: 8px;
+    background-color: whitesmoke;
+  }
+  .App{
+    background: white;
+    color: white;
+    padding: 5em;
+    border-radius: 15px;
+    border: 1px solid;
+    border-color: coral;
+    width: 500px;
+    max-width: 300px;
+   height: 400px;
+    margin: auto;
+   
+  }
+  h2{
+    color: purple;
+    position: relative;
+    top: -100.4px;
+    width: 660px;
+    left: -170px;
+    height: 100px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    text-align: center;
+  } 
+  

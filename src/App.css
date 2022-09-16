@@ -1,4 +1,4 @@
-body {
+/* body {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -21,19 +21,19 @@ body {
   border-radius: 15px;
   border: 1px solid;
   border-color: coral;
-  width: 300px;
-  max-width: 300px;
+  width: 600px;
+  max-width: 500px;
   margin: 2em;
-  height: 400px;
+  height: 500px;
 }
 .inpt{
   outline: 0;
   border: 0;
   width: 350px;
-  left: 418px;
+  left: -80px;
   height: 85px;
-  position:fixed; 
-  bottom:55px;
+  position:relative; 
+  bottom:-31px;
   color: black;
   border-bottom-left-radius: 15px;
  font-size: 18px;
@@ -41,16 +41,17 @@ body {
   border-color: coral;
   border-left-color: none;
  
+ 
 }
 .btm{
   border-left: 0px;
   border: 0;
   border-bottom-right-radius: 15px;
   height: 89px;
-  bottom:55px;
- position:fixed; 
+  bottom:58px;
+ position:relative; 
  margin: auto;
-right: 418px;
+right: -270px;
 border: 1px solid;
   border-color: coral;
 width: 110px;
@@ -63,19 +64,19 @@ background: grey;
   color:antiquewhite;
   width: 130px;
   height: 30px;
- position: fixed; 
+ position: relative; 
  background: #171738;
  margin: 95px;
- bottom: 100px;
+ bottom: -70px;
  }
 h2{
   background: coral;
-  position: fixed;
-  top: 35.4px;
-  width: 460px;
-  left: 416px;
+  position: relative;
+  top: -100.4px;
+  width: 660px;
+  left: -80px;
   height: 100px;
   border-top-right-radius: 15px;
   border-top-left-radius: 15px;
   text-align: center;
-}
+} */

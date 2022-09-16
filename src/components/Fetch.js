@@ -1,27 +1,20 @@
-import React, {useState, useEffect}  from "react";
+import React from "react";
+import Appp from "./Appp"
 
 function Fetch(){
-    const [Step, setStep] = useState("Hello how are you there, how can I help you?")
    
-    useEffect(() => {
-      fetch("http://localhost:9292")
-        .then(res => res.json())
-        .then(result => setStep(result))
-    }, []);
+    // useEffect(() => {
+    //   fetch("http://localhost:9292")
+    //     .then(res => res.json())
+    //     .then(result => setSteps(result))
+    // },
+ 
+    //  []);
 
-
-    const handleSubmit = (e) =>  {
-    setStep(e.target.value)
-    } 
-  return (
-    <div className="App">
-    <h2>FAQ application</h2>
-     <form>
-      <button className='btn' onClick={handleSubmit} value={Step}>start</button>
-       <input className= "inpt" placeholder='Enter question...'/>
-      <button className='btm'>send</button>
-     </form>
-    </div>
+ return (
+    
+    <Appp />
+   
   );
 }
 
